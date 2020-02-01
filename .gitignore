@@ -20,6 +20,13 @@
 /public/assets
 .byebug_history
 
+#Puma Config
+/tmp/pids/*              # this line
+!/tmp/pids               # this line
+!/tmp/pids/.keep         # and this line
+
+
+
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
